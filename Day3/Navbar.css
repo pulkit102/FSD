@@ -1,0 +1,27 @@
+ul li{
+    list-style: none;
+    padding: 5px;
+    font-size: 30px;
+    color: black;
+}
+ul a{
+    text-decoration: none;
+    
+}
+ul{
+    display: flex;
+    padding: 5px;
+    margin: 10px;
+}
+#input{
+    float: right;
+}
+ul li input{
+    position:absolute;
+    right: 50px;
+    border: 2px solid black;
+    border-radius: 7px;
+    width: 12%;
+    height: 30px;
+
+}
