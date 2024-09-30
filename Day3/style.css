@@ -1,0 +1,32 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+table{
+    background-color: aqua;
+    border-width: 10px;
+    border-style: groove;
+    width: 100%;
+    border-color: rgb(108, 68, 227);
+    border-radius: 12px;
+
+}
+#heading{
+    border-color: chartreuse;
+    font-size: 60px;
+    text-align: center;
+    color: brown;
+}
+#row1{
+    background-color: red;
+    text-align: center;
+}
+#row2{
+    background-color: green;
+    text-align: center;
+    border: 2px dashed black;
+    padding-bottom: 10px;
+}
+td{
+    padding-bottom: 10px;
+}
