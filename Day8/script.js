@@ -77,8 +77,8 @@ async function fetchData(){
     try{
         let response=await fetch("https://api.github.com/users?per_page=10");
         let data=await response.json();
-        data.forEach(element => {
-            console.log(`login: ${element.login} ,node_id: ${element.node_id}`)
+        data.forEach((element) => {
+            console.log(`login: ${element.login} ,node_id: ${element.node_id},avatar_url: ${element.avatar_url}`);
         });
     }
     catch(error){
