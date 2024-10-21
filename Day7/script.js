@@ -35,4 +35,5 @@ setTimeout(()=>{
                     console.log("Third task completed");
                 },3000)
         },2000)
-},1000)
+},1000);
+
